@@ -1,0 +1,32 @@
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 991px){
+    .header{
+        
+        &__phone{
+            font-size: 13px;
+        }
+        &__logo{
+            img{
+                width: 80%;
+            }
+        }
+        .button{
+            width: 109px;
+            height: 24px;
+            font-size: 10px;
+        }
+        
+    }
+    .promo{
+        &__header{
+            font-size: 30px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+
+    }
+}
